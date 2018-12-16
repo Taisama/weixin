@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.weixin" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/weixin"
+        android:label="朋友圈"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="登录" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="注册" >
+        </activity>
+        <activity
+            android:name=".Show"
+            android:label="朋友圈" >
+        </activity>
+        <activity
+            android:name=".Write"
+            android:label="发布" >
+        </activity>
+    </application>
+
+</manifest>
